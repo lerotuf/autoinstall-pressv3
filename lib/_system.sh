@@ -36,7 +36,7 @@ system_git_clone() {
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/lerotuf/press  /home/deploy/${instancia_add}/
+  git clone https://github.com/ph-domingos/repodomingos  /home/deploy/${instancia_add}/
 EOF
 
   sleep 2
